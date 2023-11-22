@@ -1,0 +1,5 @@
+sudo netstat -nlp | grep :5432
+
+sudo kill 3934
+
+lsof -t -i:3200
